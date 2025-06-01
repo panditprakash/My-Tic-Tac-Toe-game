@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Bungee+Tint&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Kufi+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Bungee+Tint&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Kufi+Arabic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(59, 20, 167);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.01rem;
+}
+main hr {
+  border: 0;
+  background-color: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px 0;
+  align-items: center;
+}
+.firstSection > div {
+  /* height: 30%; */
+  width: 30%;
+}
+.btn{
+  padding: 12px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.leftSection {
+  margin: 70px;
+  font-size: 3rem;
+  /* background-color: red; */
+}
+.rightSection {
+  /* background-color: red; */
+}
+
+.rightSection img {
+  width: 80%;
+  margin: 50px 0;
+  border-radius: 30px;
+}
+.purple {
+  color: blueviolet;
+}
+.text-gray {
+  color: gray;
+}
+
+#element {
+  color: blueviolet;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+.secondSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  display: flex;
+  margin: 56px 0;
+}
+.secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px;
+}
+footer {
+  /* Footer Styling */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links li a:hover {
+    color: #00bcd4;
+  }
+
+  .footer-text {
+    margin: 10px 0;
+  }
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+}
+
+/* contact me css */
+.contactform {
+  font-family: "Martel Sans", sans-serif;
+
+  padding-top: 144px;
+  padding: 0 34px;
+  margin: 0 88px;
+}
+.contactform h1 {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 12px 0;
+  /* text-align: center; */
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  width: 16vw;
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 3px;
+}

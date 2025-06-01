@@ -1,0 +1,38 @@
+/* contact me css */
+.contactform {
+    font-family: "Martel Sans", sans-serif;
+  
+    padding-top: 144px;
+    padding: 0 34px;
+    margin: 0 88px;
+  }
+  .contactform h1 {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 12px 0;
+    /* text-align: center; */
+  }
+  .contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .contactform form div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+  }#emailHelp {
+    font-size: 12px;
+    color: rgb(23, 119, 53);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+  }
+  #form-check {
+    flex-direction: row;
+  }
+  #form-check input {
+    width: 24px;
+    margin: 3px 0;
+  }

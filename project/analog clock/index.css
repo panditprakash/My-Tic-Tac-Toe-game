@@ -1,0 +1,41 @@
+#clockContainer {
+  background-color: red;
+  height: 40vw;
+  width: 40vw;
+  background: url(image/clock.png) no-repeat;
+  background-size: 100%; /*is image div me image fit ho jaye ga*/
+  /* border: 2px solid red; */
+  margin: auto;
+  position: relative; /**/
+}
+#second,
+#minute,
+#hour {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+#hour {
+  width: 2.2%;
+  height: 23%;
+  top: 27%;
+  left: 48.8%;
+  opacity: 0.8;
+}
+
+#minute {
+  width: 1.8%;
+  height: 31%;
+  top: 19%;
+  left: 49%;
+  opacity: 0.8;
+}
+
+#second {
+  width: 1%;
+  height: 35%;
+  top: 15%;
+  left: 49.4%;
+  opacity: 0.8;
+}

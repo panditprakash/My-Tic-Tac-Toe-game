@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Kufi+Arabic:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Kufi+Arabic:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  position: absolute;
+  background-color: rgb(127, 108, 108);
+  /* width: 281px; */
+  height: 100vh;
+  font-family: "Martel Sans", sans-serif;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 45px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+.infocontainer {
+  /* background-color: rgb(112, 154, 36); */
+  height: 58vh;
+  width: 80vw;
+  margin: 145px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  font-size: 16px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Martel Sans", sans-serif;
+}
+.hello {
+  font-size: 3em;
+}
+.name {
+  font-size: 3em;
+  font-weight: bold;
+}
+.about {
+  font-size: 2.5em;
+}
+.moreabout {
+  margin-top: 23px;
+  font-size: 2em;
+  font-family: "Martel Sans", sans-serif;
+}
+/* .btn{
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 15px 3px;
+  cursor: pointer;
+} */
+.btn {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 15px 3px;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+/* .btn-sm {
+  font-size: 14px;
+  padding: 10px 19px;
+  margin: 12px 0;
+} */
+
+.devpic img {
+  border-radius: 50%;
+  border: 2px solid black;
+  height: 50vh;
+  width: 361px;
+}
+
+/*contact.html start css code  */
+.contactform {
+  font-family: "Martel Sans", sans-serif;
+
+  padding-top: 144px;
+  padding: 0 34px;
+  margin: 0 88px;
+}
+.contactform h1 {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 12px 0;
+  /* text-align: center; */
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  width: 16vw;
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 3px;
+}
+#emailHelp {
+  font-size: 12px;
+  color: rgb(23, 119, 53);
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+#form-check {
+  flex-direction: row;
+}
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
+.blogitem {
+  margin: 20px;
+  font-family: "Martel Sans", sans-serif;
+}
+.blogcontainer {
+  margin: 40px 88px;
+}
+.blogitem h2 {
+  margin: 23px;
+}
+.blogitem p {
+  font-family: serif;
+}
+.intro {
+  margin: 50px 88px;
+}
+.intro h2 {
+  margin: 12px;
+}
+.intro p {
+  padding: 5px 5px;
+  font-size: 25px;
+  margin: 17px;
+}
+.skillcontainer {
+  padding: 12px;
+}
+.skillitem {
+  display: flex;
+  align-items: center;
+}
+.skill {
+  width: 360px;
+  height: 9px;
+  background-color: red;
+  border: 2px solid black;
+}
+.hundered {
+  width: 265px;
+  background-color: blueviolet;
+}
+.fifth {
+  width: 125px;
+  background-color: aqua;
+}
+.t5 {
+  width: 75px;
+  background-color: yellow;
+}
+.sidebargo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.cross {
+  background-color: red;
+  /* color: red; */
+  margin-left: 220px;
+}
+.hum {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+@media (max-width: 1800px) {
+  .devinfo {
+    font-size: 10px;
+  }
+  
+  .intro.blogcontainer.contactform {
+    margin: 50px 8px;
+  }
+}
